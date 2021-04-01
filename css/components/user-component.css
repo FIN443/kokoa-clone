@@ -1,14 +1,11 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  border-top: var(--main-border);
+  padding-bottom: 10px;
 }
 
-.user-component:first-child,
-.user-component-not-border {
-  border: none;
-  padding-top: 0px;
+.user-component-border {
+  border-top: var(--main-border);
+  padding-top: 10px;
 }
 
 .user-component,
